@@ -1,0 +1,64 @@
+<DOCTYPE html>
+     <html  lang = " en " >
+        
+                    <head>
+                    <meta  charset = " UTF-8 " >
+                    <title >FOOTER</title >
+                    </head>
+        <head>
+            <style> 
+                #main {
+                    width: 1350px;
+                    height: 250px;
+                    border: 1px solid #c3c3c3;
+                    display: -webkit-flex; 
+                    -webkit-justify-content: center; 
+                    display: flex;
+                    justify-content: center;
+                }
+                
+                #main div {
+                    width: 450px;
+                    height: 250px;
+                }
+            </style>
+        </head>
+            <body>  
+                <div id="main">
+                  <div style="background-color:rgb(3, 4, 102);">
+                        <ul style = "color: rgb(247, 247, 247);">
+                                <h4 > ¿NECESITAS AYUDA? </h4 >
+                                <p >  0264 1234 567 </p >
+                                <p  class = " lead " >
+                                    <Un  href = " mailto: enquiry@geekshubstravels.com "  target = " _top " > enquiry@geekshubstravels.com </una >
+                                </p >
+                                <a> Lun-Vie: 9:30-19:00 Sab: 10:00-14:00</a>
+                                <ul style>
+                  </div>
+                  <div style="background-color:rgb(3, 4, 102);">
+                        <ul style = "color: rgb(255, 255, 255);">
+                                <h4 > INFORMACIÓN </h4 >
+                                    <p>
+                                        Quienes somos </br>Preguntas frecuentes</br>Politica de privacidad</br>Condiciones generales</br>Aviso legal</br>Contacto</br>Programa de puntos
+                                    </p>
+                             </ul style>
+                  </div>
+                  <div style="background-color:rgb(3, 4, 102);">
+                        <ul style = "color: rgb(255, 255, 255);">
+                            <p >
+                                <strong > SUSCRIBETE A LA NEWSLETTER </strong >
+                            </p >
+                        </ul>
+                                <input  class = " form-control "  rows = "2"  placeholder = "Correo electronico" > </textarea >
+                            </br></br>
+                                <button  type = " submit "  id = " enviarCorreo "  class = " btn btn-lg btn-primary " > SUSCRIBIRSE </button >
+                  </div>
+                </div>
+                <div class = "fila"> 
+			<hr  class = " col-md-4 col-md-offset-4 hidden-xs " >
+             </div> 
+             <center>
+                    <footer class="footer">GeeksHubs Travels © 2018 Todos los derechos reservados</footer>
+             </center>
+            </body>
+    </html>
